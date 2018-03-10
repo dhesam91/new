@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="106" started-at="2017-11-26T13:18:38Z" finished-at="2017-11-26T13:18:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="106" started-at="2017-11-26T13:18:38Z" finished-at="2017-11-26T13:18:38Z">
+      <class name="step_definitions.mainclassstep">
+        <test-method status="SKIP" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:step_definitions.mainclassstep@68c4039c]" name="initializeTestBaseSetup" duration-ms="0" started-at="2017-11-26T08:18:38Z" finished-at="2017-11-26T08:18:38Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browserType' is required by @Test on method initializeTestBaseSetup but has not been marked @Optional or defined
+in C:\Users\Moe Munaz\AppData\Local\Temp\testng-eclipse-1128601998\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browserType' is required by @Test on method initializeTestBaseSetup but has not been marked @Optional or defined
+in C:\Users\Moe Munaz\AppData\Local\Temp\testng-eclipse-1128601998\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:165)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:372)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:462)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1300)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:1015)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1104)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+      </class> <!-- step_definitions.mainclassstep -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

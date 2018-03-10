@@ -1,0 +1,8 @@
+step_definitions\Hooks.class
+Pages\FlightInfo.class
+step_definitions\TestRunner.class
+step_definitions\RegisterSteps.class
+Pages\Home.class
+step_definitions\FlightInfoSteps.class
+Pages\Register.class
+step_definitions\HomeSteps.class

@@ -1,0 +1,272 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 20661617097,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Checking the flight info functionality",
+        "description": "",
+        "id": "testing-flight-info-functionlaity-in-flight-page;checking-the-flight-info-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 1912109632,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6875184319,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I Open Mercury Flight Application",
+            "match": {
+              "location": "HomeSteps.openFlightApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 740472980,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click on the Register link in the Home page",
+            "match": {
+              "location": "HomeSteps.navigatetoregisterpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5570928164,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter details in Registeration page",
+            "match": {
+              "location": "RegisterSteps.createUserRegistration()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2276876555,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on flight link, give all details about flight",
+            "match": {
+              "location": "FlightInfoSteps.clickonFlightLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25415,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should able to see flight pricing",
+            "match": {
+              "location": "FlightInfoSteps.flightconfiramtion()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Flight info functionlaity in Flight page",
+    "description": "",
+    "id": "testing-flight-info-functionlaity-in-flight-page",
+    "keyword": "Feature",
+    "uri": "FlightInfo.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6395017910,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Checking the Register link on Home page",
+        "description": "",
+        "id": "testing-register-link-functionlaity-in-flight-page;checking-the-register-link-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 1024977896,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3369210122,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I Open Mercury Flight Application",
+            "match": {
+              "location": "HomeSteps.openFlightApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1021137323,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click on the Register link in the Home page",
+            "match": {
+              "location": "HomeSteps.navigatetoregisterpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36280657,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Register page should displayed",
+            "match": {
+              "location": "HomeSteps.registerpagedisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Register link functionlaity in Flight page",
+    "description": "",
+    "id": "testing-register-link-functionlaity-in-flight-page",
+    "keyword": "Feature",
+    "uri": "Home.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5264735595,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Checking the user Register functionality",
+        "description": "",
+        "id": "testing-user-register-functionlaity-in-flight-page;checking-the-user-register-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 994692698,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3073135101,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I Open Mercury Flight Application",
+            "match": {
+              "location": "HomeSteps.openFlightApplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 757032701,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click on the Register link in the Home page",
+            "match": {
+              "location": "HomeSteps.navigatetoregisterpage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5047965616,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter details in Registeration page",
+            "match": {
+              "location": "RegisterSteps.createUserRegistration()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120018631,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user registration successful",
+            "match": {
+              "location": "RegisterSteps.userregisterconfirmation()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing User Register functionlaity in Flight page",
+    "description": "",
+    "id": "testing-user-register-functionlaity-in-flight-page",
+    "keyword": "Feature",
+    "uri": "Register.feature"
+  }
+]
