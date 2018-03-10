@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Register {
 	WebDriver driver;
-	//find elements using annotation
+	//find elements using annotation pagination framework 
 	@FindBy(name="firstName")
 	WebElement firstnametxt;
 	@FindBy(name="lastName")
